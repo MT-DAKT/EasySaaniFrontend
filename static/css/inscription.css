@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background-color: #E8E6DD;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.conteneur{
+    width: 45%;
+    
+}
+
+.conteneur .header{
+    display: flex;
+    align-items: center;
+}
+
+.header .text{
+    width: 520px;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: -20px;
+    margin-left: 50px;
+    background-color: #1f2d4e;
+}
+
+.conteneur .formulaire{
+    padding: 30px ;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+}
+
+.formulaire input:not([type="radio"], [type="checkbox"]){
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.formulaire .NomPrenom input{
+    width: 170px;
+    margin-right: 7px;
+}
+
+.formulaire input[type="radio"]{
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.formulaire .radio{
+    margin-right: 40px;
+}
+
+.formulaire input[type="radio"]{
+    width: 20px;
+}
+
+.formulaire .accepte{
+   
+    width: 400px;
+}
+
+span, span a{
+    color: red;
+}
+
+.accepte a{
+    text-decoration: none;
+}
+
+.accepte a:hover{
+    text-decoration: underline;
+}
+
+.formulaire .ou{
+    display: flex;
+    margin-top: 20px;
+}
+
+.formulaire p{
+    margin: 0 10px;
+}
+
+.formulaire .r1, .r2{
+    margin-top: 5px;
+    width: 155px;
+    border-top: 2px solid black;
+}
+
+.formulaire .social_ins{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.formulaire .social_ins img{
+    margin-right: 40px;
+}
+
+button{
+    width: 350px;
+    height: 30px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    background-color: #1f2d4e;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #263e74;
+
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    border-top: 2px solid gray;
+    padding: 20px;
+    font-size: 0.85em;
+}
+
+footer ul {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}

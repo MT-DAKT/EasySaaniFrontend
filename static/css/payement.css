@@ -50,6 +50,10 @@ body{
     padding: 20px;
 }
 
+.slo p{
+    text-transform:uppercase;
+}
+
 .conteneur-info .devis{
     width: 100%;
     padding: 10px;
