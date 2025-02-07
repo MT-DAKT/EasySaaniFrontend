@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background-color: #E8E6DD;
+}
+ .nav-bar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0 30px;
+    background-color: #151b54;
+}
+
+.nav-bar .titre{
+    width: 100%;
+    text-align: center;
+    color: rgb(137, 137, 26);
+}
+
+.conteneur-principale{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.conteneur-principale .conteneur{
+    width: 100%;
+    max-width: 500px;
+    border-radius: 15px;
+    background-color: #d9d9d9;
+    margin-top: 40px;
+}
+
+.conteneur .conteneur-info{
+    width: 100%;
+    border: 2px solid gray;
+    border-radius: 15px;
+    background-color: #E8E6DD;
+}
+
+.conteneur-info .slo{
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.conteneur-info .devis{
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    border-top: 2px solid gray;
+}
+
+.conteneur #operateur{
+    padding: 20px;
+}
+
+.conteneur .formulaire{
+    width: 100%;
+    padding: 0 30px;
+}
+
+.conteneur .formulaire .option-payment{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E8E6DD;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.option-payment label{
+    margin-left: 20px;
+}
+
+.formulaire .btn{
+    width: 100%;
+    display: grid;
+    place-items: center;
+    margin-bottom: 40px;
+}
+
+.formulaire .btn #Continuer{
+    width: 50%;
+    color: white;
+    background-color: #151b54;
+    margin-top: 15px;
+    padding: 7px;
+    border: none;
+    border-radius: 30px;
+}
+
+.formulaire .btn #Annuler{
+    width: 50%;
+    color: white;
+    background-color: rgb(137, 137, 26);
+    margin-top: 10px;
+    padding: 7px;
+    border: none;
+    border-radius: 30px;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    border-top: 2px solid gray;
+    padding: 20px;
+    font-size: 0.85em;
+}
+
+footer ul {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
