@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    border-top: 2px solid gray;
+    padding: 20px;
+    font-size: 0.85em;
+}
+
+footer ul {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}

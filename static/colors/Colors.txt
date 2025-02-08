@@ -1,0 +1,7 @@
+#E8E6DD:Primary-Background-Color
+#E0CD8B: Secondary-Background-Color, Primary-Button-Color, Secondary-Text-Color
+#D9D9D9: tre -Background-Color,
+#1F2D4E: Nav-Bar-Color, Secondary-Button-Color
+#FFFFFF: Primary-Text-Color
+#000000: Main-Text-Color
+#F7F416: Star-Color
