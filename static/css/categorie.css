@@ -6,7 +6,7 @@
 
 body{
     width: 100%;
-    background-color: #D9D9D9;
+    background-color: #fff;
 }
 
 main{
@@ -38,21 +38,21 @@ header{
 }
 
 #recherche{
-    width: 350px;
+    width: 400px;
     height: 30px;
     padding: 10px;
     outline: none;
     border-radius: 30px;
 }
 
-input[type="button"]{
+button{
     border: none;
     border-radius: 25px;
     background-color: #E0CD8B;
     cursor: pointer;
 }
 
-input[type="button"]:hover{
+button:hover{
     background-color: #F7F416;
 }
 
@@ -67,11 +67,18 @@ input[type="button"]:hover{
     margin-left: 20px;
 }
 
+main .suiv{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0 30px;
+}
+
 .conteneur{
     display: grid;
+    flex-wrap: wrap;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    gap: 30px 60px;
+    gap: 30px 50px;
     margin: 90px 0;
     padding: 30px;
     justify-items: center;
