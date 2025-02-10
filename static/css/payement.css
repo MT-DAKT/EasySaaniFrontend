@@ -30,16 +30,17 @@ body{
 
 .conteneur-principale .conteneur{
     width: 100%;
-    max-width: 500px;
-    border-radius: 15px;
+    max-width: 450px;
+    height: 570px;
+    border-radius: 25px;
     background-color: #d9d9d9;
     margin-top: 40px;
 }
 
 .conteneur .conteneur-info{
-    width: 100%;
-    border: 2px solid gray;
-    border-radius: 15px;
+    width: 450px;
+    border: 1px solid gray;
+    border-radius: 25px;
     background-color: #E8E6DD;
 }
 
@@ -51,14 +52,16 @@ body{
 }
 
 .slo p{
+    font-size: 13px;
     text-transform:uppercase;
 }
 
 .conteneur-info .devis{
     width: 100%;
     padding: 10px;
+    font-size: 13px;
     font-weight: bold;
-    border-top: 2px solid gray;
+    border-top: 1px solid gray;
 }
 
 .conteneur #operateur{
@@ -102,6 +105,10 @@ body{
     border-radius: 30px;
 }
 
+.formulaire .btn #Continuer:hover{
+    background-color: #162073;
+}
+
 .formulaire .btn #Annuler{
     width: 50%;
     color: white;
@@ -110,6 +117,10 @@ body{
     padding: 7px;
     border: none;
     border-radius: 30px;
+}
+
+.formulaire .btn #Annuler:hover{
+    background-color: rgb(209, 209, 32);
 }
 
 footer {
