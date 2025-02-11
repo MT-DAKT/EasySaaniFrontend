@@ -24,14 +24,18 @@ header{
     background-color: #1f2d4e;
 }
 
+.btn{
+    display: flex;
+}
+
 .btn #nom-prod{
     position: absolute;
     width: 25px;
     height: 25px;
     text-align: center;
     color: white;
-    margin-left: -20px;
-    margin-top: -15px;
+    margin-left: 85px;
+    margin-top: -13px;
     background-color: red;
     border: none;
     border-radius: 50%;
@@ -74,6 +78,7 @@ main .suiv{
 }
 
 .conteneur{
+    position: relative;
     display: grid;
     flex-wrap: wrap;
     grid-template-columns: repeat(5, 1fr);

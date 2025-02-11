@@ -32,7 +32,7 @@ body{
     width: 100%;
     max-width: 450px;
     height: 570px;
-    border-radius: 25px;
+    border-radius: 20px;
     background-color: #d9d9d9;
     margin-top: 40px;
 }
@@ -40,7 +40,7 @@ body{
 .conteneur .conteneur-info{
     width: 450px;
     border: 1px solid gray;
-    border-radius: 25px;
+    border-radius: 20px;
     background-color: #E8E6DD;
 }
 

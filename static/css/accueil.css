@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    background-color: #1f2d4e;
+}
+
+.search ul{
+    list-style: none;
+}
+
+.search ul li{
+    display: inline;
+    margin-right: 30px;
+}
+
+.search ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.search ul li a:hover{
+    text-decoration: underline;
+}
+
+.conteneur-slogan{
+    height: 345px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #E0CD8B;
+}
+
+.btn{
+    display: flex;
+}
+
+.btn #nom-prod{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    color: white;
+    margin-left: 85px;
+    margin-top: -13px;
+    background-color: red;
+    border: none;
+    border-radius: 50%;
+}
+
+button{
+    border: none;
+    border-radius: 25px;
+    background-color: #E0CD8B;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #F7F416;
+}
+
+.btn #panier{
+    width: 100px;
+    height: 25px;
+}
+
+.btn #connecter{
+    width: 140px;
+    height: 25px;
+    margin-left: 20px;
+}
