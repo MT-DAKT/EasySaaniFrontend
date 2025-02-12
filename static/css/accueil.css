@@ -108,7 +108,23 @@ button:hover{
 }
 
 .categorie-recherche .recherche{
+    position: relative;
+    display: flex;
     margin: 20px;
+}
+
+.icon-search, .icon-camera{
+    margin-top: 7px;
+}
+
+.icon-search{
+    position: absolute;
+    margin-left: 15px;
+}
+
+.icon-camera{
+    position: absolute;
+    margin-left: 375px;
 }
 
 .categorie-recherche .recherche input{
@@ -143,10 +159,6 @@ button:hover{
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-.conteneur{
-    padding: 20px;
-}
-
 .conteneur section{
     display: flex;
 }
@@ -177,7 +189,7 @@ section .gros-card .card{
 }
 
 #quatre4 .card img{
-    min-width: 230px;
+    
     min-height: 300px;
 }
 
@@ -193,6 +205,7 @@ section .gros-card .card{
 
 .products-container {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 20px;
 }
@@ -291,16 +304,20 @@ section .gros-card .card{
 .commencer{
     display: flex;
     height: 350px;
+    padding: 0;
     background-image: url(../Images/manchine-laver.jpg);
     background-size: cover;
     background-position: center;
-    opacity: 50%;
 }
 
 .commencer .opacite{
-    display: grid;
-    place-items: center;
-    margin: auto;
+    justify-items: center;
+    padding: 100px;
+    width: 100%;
+    height: 350px;
+    color: white;
+    background-color: #1f2d4e;
+    opacity: 50%;
 }
 
 .commencer .opacite p{
