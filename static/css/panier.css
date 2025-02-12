@@ -108,6 +108,7 @@ section .cardContainer{
 .contain .context .titleCard span{
     color: red;
     font-weight: bold;
+
 }
 
 .containerBody .contain .context .titleCard span{
@@ -139,7 +140,7 @@ section .cardContainer{
     border-radius: 50px;
     background-color: #fff;
     width: 85px;
-    padding: 3px;
+    padding: 5px;
     margin-right: 10px;
 }
 

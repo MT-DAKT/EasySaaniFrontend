@@ -2,6 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: #E8E6DD;
 }
 
 header nav {
@@ -37,6 +43,21 @@ header nav {
     justify-content: space-around;
     align-items: center;
     background-color: #E0CD8B;
+}
+
+.conteneur-slogan h1{
+    font-size: 60px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    color: green;
+}
+
+.conteneur-slogan p{
+    font-size: 30px;
+}
+
+.conteneur-slogan .promo{
+    display: block;
 }
 
 .btn{
@@ -76,4 +97,281 @@ button:hover{
     width: 140px;
     height: 25px;
     margin-left: 20px;
+}
+
+.categorie-recherche{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.categorie-recherche .recherche{
+    margin: 20px;
+}
+
+.categorie-recherche .recherche input{
+    width: 400px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+.categorie-recherche .fleche{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.categorie-recherche .fleche .categorie{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+ .icon{
+    font-size: 40px;
+    margin: 0 10px;
+}
+
+.conteneur-slogan .reduction p:first-of-type{
+    color: red;
+    font-size: 100px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.conteneur{
+    padding: 20px;
+}
+
+.conteneur section{
+    display: flex;
+}
+
+section .gros-card{
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+section .gros-card h3{
+    margin-bottom: 20px;
+}
+
+section .gros-card .card{
+    display: block;
+}
+
+.gros-card img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.gros-card .card img{
+    margin-right: 10px;
+}
+
+#quatre4 .card img{
+    min-width: 230px;
+    min-height: 300px;
+}
+
+.gros-card .conteneur-card{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.gros-card .conteneur-card .card{
+    width: 50%;
+    margin: 10px;
+}
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.product-card {
+    width: 220px;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.product-card img {
+    width: 100%;
+}
+
+.product-info {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.product-info .price {
+    font-weight: bold;
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.product-info .coeur{
+    display: flex;
+}
+
+.product-info .description {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.product-info .rating {
+    margin-bottom: 10px;
+}
+
+.product-card .heart {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #ff5733;
+}
+
+.contain .texte{
+    justify-items: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.contain .texte h2{
+    margin-bottom: 20px;
+}
+
+
+.contain, .commencer{
+    padding: 20px 50px;
+    background-color: #1f2d4e;
+}
+
+.contain .commentaire{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #E0CD8B;
+    margin: 30px 0;
+}
+
+.commentaire .conteneur-profile{
+    display: flex;
+    align-items: center;
+}
+
+.commentaire .conteneur-profile .profile{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: #E8E6DD;
+}
+
+.commentaire .texte-commentaire{
+    width: 50%;
+}
+
+.commencer{
+    display: flex;
+    height: 350px;
+    background-image: url(../Images/manchine-laver.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 50%;
+}
+
+.commencer .opacite{
+    display: grid;
+    place-items: center;
+    margin: auto;
+}
+
+.commencer .opacite p{
+    margin: 20px 0;
+}
+
+.commencer .opacite button{
+    width: 150px;
+    height: 30px;
+    background-color: #E0CD8B;
+}
+
+.conteneur-renseignement{
+    background-color: white;
+    margin-top: 40px;
+    padding-top: 20px;
+}
+
+.renseignement{
+    display: flex;
+    margin: 20px 0;
+}
+
+.renseignement .link{
+    border-right: 2px solid #777;
+    padding: 0 20px;
+}
+
+.renseignement .link h3{
+    margin-bottom: 20px;
+}
+
+.renseignement ul li{
+    margin-bottom: 20px;
+}
+
+.renseignement ul li a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.conteneur-renseignement .partenaire{
+    display: flex;
+}
+
+.conteneur-renseignement .partenaire img{
+    width: 100px;
+    margin-top: -20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.85em;
+}
+
+footer ul {
+    margin-bottom: 10px;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
 }
