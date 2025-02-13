@@ -29,6 +29,7 @@ header nav {
 }
 
 .search ul li a{
+    margin-right: 30px;
     color: white;
     text-decoration: none;
 }
@@ -77,14 +78,14 @@ header nav {
     border-radius: 50%;
 }
 
-button{
+.btn button{
     border: none;
     border-radius: 25px;
     background-color: #E0CD8B;
     cursor: pointer;
 }
 
-button:hover{
+.btn button:hover{
     background-color: #F7F416;
 }
 
@@ -138,7 +139,6 @@ button:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .categorie-recherche .fleche .categorie{
@@ -147,7 +147,8 @@ button:hover{
     justify-content: space-between;
 }
 
- .icon{
+ .icon button{
+    border: none;
     font-size: 40px;
     margin: 0 10px;
 }
@@ -159,12 +160,17 @@ button:hover{
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
+.conteneur .texte{
+    margin: 20px;
+}
+
 .conteneur section{
     display: flex;
 }
 
 section .gros-card{
     width: 400px;
+    height: 440px;
     padding: 10px;
     margin: 10px;
     border-radius: 5px;
@@ -244,7 +250,7 @@ section .gros-card .card{
     margin-bottom: 10px;
 }
 
-.product-info .rating {
+.product-info .etoile {
     margin-bottom: 10px;
 }
 
@@ -284,6 +290,26 @@ section .gros-card .card{
     margin: 30px 0;
 }
 
+.contain .commentaire:hover{
+    background-color: #e1c560;
+}
+
+.commentaire .icon button{
+    border: none;
+    background-color: #E0CD8B;
+    margin: 0 20px;
+}
+
+.commentaire .icon .fa{
+    font-size: 30px;
+}
+
+.commentaire .context{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .commentaire .conteneur-profile{
     display: flex;
     align-items: center;
@@ -295,6 +321,12 @@ section .gros-card .card{
     margin-right: 10px;
     border-radius: 50%;
     background-color: #E8E6DD;
+}
+
+.commentaire .conteneur-profile .profile img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
 }
 
 .commentaire .texte-commentaire{
@@ -317,7 +349,7 @@ section .gros-card .card{
     height: 350px;
     color: white;
     background-color: #1f2d4e;
-    opacity: 50%;
+    opacity: 80%;
 }
 
 .commencer .opacite p{
@@ -327,7 +359,13 @@ section .gros-card .card{
 .commencer .opacite button{
     width: 150px;
     height: 30px;
+    border: none;
+    border-radius: 20px;
     background-color: #E0CD8B;
+}
+
+.commencer .opacite button:hover{
+    background-color: #e1c560;
 }
 
 .conteneur-renseignement{
