@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../static/css/categorie.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
     <title>Categorie</title>
 </head>
 <body>
@@ -11,7 +12,13 @@
     <header>
         <img src="../static/Images/logo-Easy-Saani.png" alt="Logo EASY-SAANI" style="width: 80px;">
         <div class="search">
-            <input type="text" id="recherche">
+            <div class="icon-search">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </div>
+            <input type="text">
+            <div class="icon-camera">
+                <i class="fa fa-camera" aria-hidden="true"></i>
+            </div>
         </div>
         <div class="btn">
             <button id="panier" name="">Panier</button>
@@ -22,7 +29,7 @@
 
     <main>
         <div class="suiv">
-            <p><</p>
+            <button><i class="fa fa-caret-left" aria-hidden="true"></i></button>
         </div>
         <div class="conteneur">
             <div class="categorie">
@@ -101,7 +108,7 @@
             </div>
         </div>
         <div class="suiv">
-            <p>></p>
+            <button><i class="fa fa-caret-right" aria-hidden="true"></i></button>
         </div>
     </main>
 
