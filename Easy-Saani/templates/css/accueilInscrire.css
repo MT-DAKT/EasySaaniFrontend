@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #E8E6DD;
+    display: grid;
+    place-items: center;
+}
+
+.commencer{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    padding: 0;
+    background-image: url(../Images/manchine-laver.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.commencer .opacite{
+    justify-items: center;
+    padding: 100px;
+    width: 100%;
+    color: white;
+    background-color: #1f2d4e;
+    opacity: 80%;
+}
+
+.commencer .opacite p{
+    margin: 20px 0;
+}
+
+.commencer .opacite button{
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: #E0CD8B;
+}
+
+.commencer .opacite button:hover{
+    background-color: #e1c560;
+}

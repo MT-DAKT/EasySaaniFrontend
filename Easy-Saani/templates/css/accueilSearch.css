@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #E8E6DD;
+    display: grid;
+    place-items: center;
+}
+
+.recherche{
+    position: relative;
+    display: flex;
+    margin: 20px;
+}
+
+.icon-search, .icon-camera{
+    margin-top: 7px;
+}
+
+.icon-search{
+    position: absolute;
+    margin-left: 15px;
+}
+
+.icon-camera{
+    position: absolute;
+    margin-left: 375px;
+}
+
+.recherche input{
+    width: 400px;
+    height: 30px;
+    border-radius: 30px;
+}

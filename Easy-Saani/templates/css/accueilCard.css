@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    background-color: #E8E6DD;
+}
+
+section{
+    display: flex;
+}
+
+section .gros-card{
+    width: 400px;
+    height: 450px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+section .gros-card h3{
+    margin-bottom: 20px;
+}
+
+section .gros-card .card{
+    display: block;
+}
+
+.gros-card img{
+    width: 90%;
+    border-radius: 5px;
+}
+
+.gros-card .card img{
+    margin-right: 10px;
+}
+
+#quatre4 .card img{
+    
+    min-height: 300px;
+}
+
+.gros-card .conteneur-card{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.gros-card .conteneur-card .card{
+    width: 50%;
+    margin: 10px;
+}

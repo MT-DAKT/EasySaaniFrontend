@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E8E6DD;
+}
+
+.pub{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    background-color: #E0CD8B;
+}
+
+.pub .icon button{
+    border: none;
+    background-color: #E0CD8B;
+    margin: 0 30px;
+}
+
+.pub .icon .fa{
+    font-size: 30px;
+}
+
+.contain{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contain .reduction p:first-of-type{
+    text-align: center;
+    font-size: 100px;
+    color: red;
+}
+
+.contain .reduction p:nth-child(2){
+    font-size: 20px;
+}
