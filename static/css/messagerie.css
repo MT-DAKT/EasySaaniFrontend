@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E8E6DD;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2d4e;
+}
+
+nav .logo img{
+    width: 80px;
+    margin-left: 30px;
+}
+
+nav h2{
+    color: #E0CD8B;
+}
+
+.btn{
+    display: flex;
+    margin-right: 30px;
+}
+
+.btn #nom-prod{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    color: white;
+    margin-left: 85px;
+    margin-top: -13px;
+    background-color: red;
+    border: none;
+    border-radius: 50%;
+}
+
+.btn button{
+    border: none;
+    border-radius: 25px;
+    background-color: #E0CD8B;
+    cursor: pointer;
+}
+
+.btn button:hover{
+    background-color: #F7F416;
+}
+
+.btn #panier{
+    width: 100px;
+    height: 25px;
+}
+
+.btn #connecter{
+    width: 140px;
+    height: 25px;
+    margin-left: 20px;
+}
+
+section{
+    position: fixed;
+    overflow: auto;
+    resize: both;
+    top: 83px;
+    width: 25%;
+    border: 1px solid black;
+    background-color: #fff;
+}
+
+section .search{
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+
+section .search i{
+    position: absolute;
+    top: 26px;
+    left: 250px;
+}
+
+section .search .recherche{
+    width: 90%;
+    height: 25px;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+}
+
+section .scroll{
+    height: 100vh;
+    overflow: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+section .scroll::-webkit-scrollbar{
+    width: 2px;
+    height: 2px;
+}
+
+section .scroll::-webkit-scrollbar-thumb{
+    background-color: #ccc;
+    border-radius: 5px;
+}
+
+section .view{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 20px;
+    border-bottom: 1px solid black;
+}
+
+section .view p{
+    margin-left: 20px;
+}
+
+section .view .non-lu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+section .view .non-lu p{
+    position: absolute;
+    left: 116px;
+    color: white;
+}
+
+section .liste{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+section .liste:hover{
+    background-color: #e9e6e6;
+}
+
+section .liste .profile{
+    display: flex;
+}
+
+section .liste .profile .info-profile{
+    display: flex;
+    flex-direction: column;
+}
+
+section .liste .profile .info-profile p:first-child{
+    font-weight: bold;
+}
+
+section .liste .profile .photo-profile{
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    border-radius: 50%;
+}
+
+section .liste .profile img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.liste .info-profile .nom-entreprise{
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.liste .heure{
+    display: flex;
+    flex-direction: column;
+}
+
+.liste .heure time{
+    color: gray;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.liste .produit .img{
+    width: 25px;
+} 
+
+.liste .produit .img img{
+    width: 100%;
+}
+
+
+
+.chatbot{
+    visibility: hidden;
+    width: 75%;
+    position: fixed;
+    right: 0;
+    overflow: hidden;
+    top: 83px;
+    bottom: 0;
+    border: 1px solid black;
+    border-left: none;
+    background-color: #fff;
+}
+
+.chatbot header{
+    background-color: #dddada;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+.chatbot header .profile{
+    display: flex;
+    align-items: center;
+}
+
+.chatbot header .photo-profile{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.chatbot header .profile-info p:last-child{
+    font-size: 10px;
+    color: black;
+}
+
+.chatbot header .photo-profile .profile-img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 50%;
+}
+
+.chatbot .chatbox{
+    height: 100%;
+    overflow-y: auto;
+    padding: 15px 20px 70px;
+}
+
+.chatbox .chat{
+    display: flex;
+}
+
+.chatbox .envoyer{
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+
+.chatbox .chat p{
+    color: #fff;
+    max-width: 40%;
+    padding: 12px 16px;
+    font-size: 0.95rem;
+    border-radius: 10px 0 10px 10px;
+    color: black;
+    background-color: #E8E6DD;
+}
+
+.chatbox .heure{
+    align-self: flex-end;
+    font-size: 10px;
+}
+
+.chatbox .reçu p{
+    color: #000;
+    background-color: #f2f2f2;
+    border-radius: 0 10px 10px 10px;
+}
+
+.chatbot .chat-input{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    gap: #fff;
+    background-color: #fff;
+    padding: 5px 20px;
+    border-top: 1px solid #ccc;
+}
+
+.chat-input textarea{
+    height: 55px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 0.95rem;
+    resize: none;
+    padding: 16px 15px 16px 0;
+}
+
+.chat-input span{
+    align-self: flex-end;
+    height: 55px;
+    line-height: 55px;
+    color: #1f2d4e;
+    font-size: 1.35rem;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.chat-input textarea:valid ~ span{
+    visibility: visible;
+}

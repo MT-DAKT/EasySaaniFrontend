@@ -30,29 +30,30 @@ body{
 
 .conteneur-principale .conteneur{
     width: 100%;
-    max-width: 450px;
-    height: 570px;
+    max-width: 400px;
+    height: 500px;
     border-radius: 20px;
     background-color: #d9d9d9;
     margin-top: 40px;
 }
 
 .conteneur .conteneur-info{
-    width: 450px;
+    width: 400px;
     border: 1px solid gray;
     border-radius: 20px;
     background-color: #E8E6DD;
 }
 
-.conteneur-info .slo{
+.conteneur-info .choix-pay{
     width: 100%;
     text-align: center;
     font-weight: bold;
     padding: 20px;
 }
 
-.slo p{
+.choix-pay p{
     font-size: 13px;
+    font-weight: bold;
     text-transform:uppercase;
 }
 
@@ -64,64 +65,71 @@ body{
     border-top: 1px solid gray;
 }
 
-.conteneur #operateur{
-    padding: 20px;
-}
-
-.conteneur .formulaire{
-    width: 100%;
-    padding: 0 30px;
-}
-
-.conteneur .formulaire .option-payment{
-    width: 100%;
-    height: 30px;
+form{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    background-color: #E8E6DD;
-    border-radius: 5px;
-    border: 1px solid black;
-    margin-bottom: 10px;
+    margin-top: 20px;
 }
 
-.option-payment label{
-    margin-left: 20px;
+form .image{
+    width: 120px;
+    margin-top: 40px;
 }
 
-.formulaire .btn{
+form .image img{
     width: 100%;
-    display: grid;
-    place-items: center;
-    margin-bottom: 40px;
 }
 
-.formulaire .btn #Continuer{
+form p{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+form input{
+    width: 75%;
+    height: 35px;
+    padding: 10px;
+    outline: none;
+    margin: 20px 0 10px 0;
+    border-radius: 7px;
+}
+
+form input:focus{
+    border: 2px solid #1f2980;
+}
+
+form h6{
+    color: gray;
+    margin-bottom: 20px;
+}
+
+form button{
     width: 50%;
+    height: 25px;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+form button:first-of-type{
     color: white;
     background-color: #151b54;
-    margin-top: 15px;
-    padding: 7px;
-    border: none;
-    border-radius: 30px;
 }
 
-.formulaire .btn #Continuer:hover{
-    background-color: #162073;
+form button:first-of-type:hover{
+    background-color: #1f2980;
 }
 
-.formulaire .btn #Annuler{
-    width: 50%;
+form button:last-of-type{
     color: white;
-    background-color: rgb(137, 137, 26);
-    margin-top: 10px;
-    padding: 7px;
-    border: none;
-    border-radius: 30px;
+    background-color: #E0CD8B;
 }
 
-.formulaire .btn #Annuler:hover{
-    background-color: rgb(209, 209, 32);
+form button:last-of-type:hover{
+    background-color: #d5bd64;
 }
 
 footer {

@@ -15,18 +15,13 @@ body{
     width: 100%;
 }
 
-.conteneur{
-    width: 45%;
-    
-}
-
 .conteneur .header{
     display: flex;
     align-items: center;
 }
 
 .header .text{
-    width: 520px;
+    width: 518px;
     color: white;
     border-radius: 5px;
     padding: 10px;
@@ -36,6 +31,7 @@ body{
 }
 
 .conteneur .formulaire{
+    min-width: 500px;
     padding: 30px ;
     border-radius: 10px;
     background-color: #d9d9d9;
@@ -108,11 +104,14 @@ span, span a{
 .formulaire .social_ins{
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 10px 0;
 }
 
-.formulaire .social_ins img{
+.formulaire .social_ins a{
     margin-right: 40px;
+    color: blue;
+    font-size: 30px;
 }
 
 button{
@@ -121,7 +120,7 @@ button{
     color: white;
     border: none;
     border-radius: 30px;
-    background-color: #1f2d4e;
+    background-color: #1F2D4E;
     cursor: pointer;
 }
 

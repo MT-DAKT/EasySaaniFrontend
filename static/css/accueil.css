@@ -46,6 +46,11 @@ header nav {
     background-color: #E0CD8B;
 }
 
+.conteneur-slogan .icon button{
+    background-color: #E0CD8B;
+    border: none;
+}
+
 .conteneur-slogan h1{
     font-size: 60px;
     font-family:'Times New Roman', Times, serif;
@@ -86,7 +91,7 @@ header nav {
 }
 
 .btn button:hover{
-    background-color: #F7F416;
+    background-color: #e1c560;
 }
 
 .btn #panier{

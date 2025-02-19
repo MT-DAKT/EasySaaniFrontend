@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/messagerie.css">
+    <!--   Font Awesone lien  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="../static/Images/logo-Easy-Saani.png" alt="Logo EASY-SAANI">
+        </div>
+        <h2>Messagerie</h2>
+        <div class="btn">
+            <button id="panier" name="">Panier</button>
+            <input type="text" id="nom-prod" value="3" disabled>
+            <button id="connecter" name="">Se connecter</button>
+        </div>
+    </nav>
+    
+        <section>
+            <div class="search">
+                <input type="text" class="recherche">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </div>
+            <div class="scroll">
+                <div class="view">
+                    <p>Toute</p>
+                    <p>Non lue</p>
+                    <div class="non-lu">
+                        <p>3</p>
+                    </div>
+                </div>
+                <div class="liste" onclick=showm()>
+                    <div class="profile">
+                        <div class="photo-profile">
+                            <img src="../static/Images/télécharger (1).jpeg" alt="">
+                        </div>
+                        <div class="info-profile">
+                            <span class="nom">Mamadou Diouma</span>
+                            <span class="nom-entreprise">Diamdian Shop Entreprise</span>
+                        </div>
+                    </div>
+                    <div class="heure produit">
+                        <time>Hier</time>
+                        <div class="img">
+                            <img src="../static/Images/1559-Orange-5-5280OrangeFlatFront2-337W.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="liste">
+                    <div class="profile">
+                        <div class="photo-profile">
+                            <img src="../static/Images/télécharger (1).jpeg" alt="">
+                        </div>
+                        <div class="info-profile">
+                            <span class="nom">Modibo Traore</span>
+                            <span class="nom-entreprise">Traore Electronique</span>
+                        </div>
+                    </div>
+                    <div class="heure produit">
+                        <time>Hier</time>
+                        <div class="img">
+                            <img src="../static/Images/manchine-laver.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="liste">
+                    <div class="profile">
+                        <div class="photo-profile">
+                            <img src="../static/Images/télécharger (1).jpeg" alt="">
+                        </div>
+                        <div class="info-profile">
+                            <span class="nom">Youssouf Kone</span>
+                            <span class="nom-entreprise">Vente de chaussures et divers</span>
+                        </div>
+                    </div>
+                    <div class="heure produit">
+                        <time>Hier</time>
+                        <div class="img">
+                            <img src="../static/Images/manchine-laver.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="liste">
+                    <div class="profile">
+                        <div class="photo-profile">
+                            <img src="../static/Images/télécharger (1).jpeg" alt="">
+                        </div>
+                        <div class="info-profile">
+                            <span class="nom">Fatoumata Berthe</span>
+                            <span class="nom-entreprise">Sacs & Chaussures pour femme</span>
+                        </div>
+                    </div>
+                    <div class="heure produit">
+                        <time>Hier</time>
+                        <div class="img">
+                            <img src="../static/Images/manchine-laver.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="liste">
+                    <div class="profile">
+                        <div class="photo-profile">
+                            <img src="../static/Images/télécharger (1).jpeg" alt="">
+                        </div>
+                        <div class="info-profile">
+                            <span class="nom">Modibo Traore</span>
+                            <span class="nom-entreprise">Traore Electronique</span>
+                        </div>
+                    </div>
+                    <div class="heure produit">
+                        <time>Hier</time>
+                        <div class="img">
+                            <img src="../static/Images/manchine-laver.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="liste">
+                    <div class="profile">
+                        <div class="photo-profile">
+                            <img src="../static/Images/télécharger (1).jpeg" alt="">
+                        </div>
+                        <div class="info-profile">
+                            <span class="nom">Modibo Traore</span>
+                            <span class="nom-entreprise">Traore Electronique</span>
+                        </div>
+                    </div>
+                    <div class="heure produit">
+                        <time>Hier</time>
+                        <div class="img">
+                            <img src="../static/Images/manchine-laver.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="liste">
+                    <div class="profile">
+                        <div class="photo-profile">
+                            <img src="../static/Images/télécharger (1).jpeg" alt="">
+                        </div>
+                        <div class="info-profile">
+                            <span class="nom">Modibo Traore</span>
+                            <span class="nom-entreprise">Traore Electronique</span>
+                        </div>
+                    </div>
+                    <div class="heure produit">
+                        <time>Hier</time>
+                        <div class="img">
+                            <img src="../static/Images/manchine-laver.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="liste">
+                    <div class="profile">
+                        <div class="photo-profile">
+                            <img src="../static/Images/télécharger (1).jpeg" alt="">
+                        </div>
+                        <div class="info-profile">
+                            <span class="nom">Modibo Traore</span>
+                            <span class="nom-entreprise">Traore Electronique</span>
+                        </div>
+                    </div>
+                    <div class="heure produit">
+                        <time>Hier</time>
+                        <div class="img">
+                            <img src="../static/Images/manchine-laver.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="liste">
+                    <div class="profile">
+                        <div class="photo-profile">
+                            <img src="../static/Images/télécharger (1).jpeg" alt="">
+                        </div>
+                        <div class="info-profile">
+                            <span class="nom">Modibo Traore</span>
+                            <span class="nom-entreprise">Traore Electronique</span>
+                        </div>
+                    </div>
+                    <div class="heure produit">
+                        <time>Hier</time>
+                        <div class="img">
+                            <img src="../static/Images/manchine-laver.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="liste">
+                    <div class="profile">
+                        <div class="photo-profile">
+                            <img src="../static/Images/télécharger (1).jpeg" alt="">
+                        </div>
+                        <div class="info-profile">
+                            <span class="nom">Modibo Traore</span>
+                            <span class="nom-entreprise">Traore Electronique</span>
+                        </div>
+                    </div>
+                    <div class="heure produit">
+                        <time>Hier</time>
+                        <div class="img">
+                            <img src="../static/Images/manchine-laver.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="liste">
+                    <div class="profile">
+                        <div class="photo-profile">
+                            <img src="../static/Images/télécharger (1).jpeg" alt="">
+                        </div>
+                        <div class="info-profile">
+                            <span class="nom">Modibo Traore</span>
+                            <span class="nom-entreprise">Traore Electronique</span>
+                        </div>
+                    </div>
+                    <div class="heure produit">
+                        <time>Hier</time>
+                        <div class="img">
+                            <img src="../static/Images/manchine-laver.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+
+        </section>
+        <div class="chatbot">
+            <header>
+                <div class="profile">
+                    <div class="photo-profile">
+                        <img src="../static/Images/télécharger (1).jpeg" alt="" class="profile-img">
+                    </div>
+                    <div class="profile-info">
+                        <p>Mamadou Diouma</p>
+                        <p>En ligne à 17:30</p>
+                    </div>
+                </div>
+            </header>
+            <ul class ="chatbox">
+                <li class="chat envoyer">
+                    <p>Bonjour, je voulais en savoir plus sur vos t-shirt, quel modèle avez-vous</p>
+                    <div class="heure"><time >08:00</time></div>
+                </li>
+                <li class="chat reçu">
+                    <div class="heure"><time >08:10</time></div>
+                    <p>Bonjour, nous avons plusieurs modèles, du classique au col rond jusqu'aux versions oversize et techniques.<br>
+                    Vous cherchez quelques choses en particuliers</p>
+                </li>
+                <li class="chat envoyer">
+                    <p>je voulais savoir s'il est possibles de les personnalisés ?</p>
+                    <div class="heure"><time >15:00</time></div>
+                </li>
+                <li class="chat reçu">
+                    <div class="heure"><time >15:30</time></div>
+                    <p>Oui effectivement</p>
+                </li>
+            </ul>
+            <div class="chat-input">
+                <textarea placeholder="Entrer un message..." required></textarea>
+                <span id="send-btn" ><i class="fa-regular fa-paper-plane"></i>send</span>
+            </div>
+        </div>
+
+        <script>
+            function showm(){
+                const showm = document.querySelector('.chatbot')
+                showm.style.visibility = 'visible'
+            }
+        </script>
+</body>
+</html>

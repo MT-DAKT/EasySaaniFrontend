@@ -30,8 +30,7 @@ body{
 }
 
 .container{
-    width: 405px;
-    height: 543px;
+    width: 350px;
     background-color: #d9d9d9;
     padding: 20px;
     border-radius: 30px;
@@ -39,7 +38,7 @@ body{
 }
 
 .container #identifiez-vous{
-    font-size: 30px;
+    font-size: 25px;
     color: #1f2d4e;
     margin-bottom: 10px;
 }
@@ -55,18 +54,23 @@ body{
 
 .champ-text input[type="text"], input[type="password"]{
     width: 100%;
-    height: 40px;
+    height: 35px;
+    outline: none;
     border: 1px solid black;
     padding-left: 10px;
     border-radius: 5px;
     margin-bottom: 10px;
 }
 
+.champ-text input[type="text"]:focus, input[type="password"]:focus{
+    border:2px solid #000dff;
+}
+
 .champ-text input[type="submit"]{
     width: 100%;
-    height: 35px;
+    height: 33px;
     border: none;
-    font-size: 20px;
+    font-size: 16px;
     color: white;
     margin-top: 5px;
     border-radius: 30px;
@@ -91,7 +95,9 @@ body{
 }
 
 .creercompte a{
-    font-size: 20px;color: #000dff;
+    font-size: 20px;
+    color: #000dff;
+    text-decoration: none;
 }
 
 .container .lien{
